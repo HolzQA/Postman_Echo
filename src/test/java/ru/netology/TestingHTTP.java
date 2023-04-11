@@ -20,7 +20,7 @@ public class TestingHTTP {
          // Проверки
          .then()
             .statusCode(200)
-            .body("data", equalTo("12.04.2023"))
+            .body("data", equalTo("11.04.2023"))
         ;
     }
 }
